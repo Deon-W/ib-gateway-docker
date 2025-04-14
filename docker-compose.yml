@@ -1,12 +1,17 @@
-name: algo-trader
+version: '3.8'
+
 services:
   ib-gateway:
     restart: always
+    platform: linux/amd64  # IB Gateway requires amd64
     build:
       context: ./latest
-      tags:
-        - "ghcr.io/gnzsnz/ib-gateway:latest"
     image: ghcr.io/gnzsnz/ib-gateway:latest
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "7"
     environment:
       TWS_USERID: ${TWS_USERID}
       TWS_PASSWORD: ${TWS_PASSWORD}
@@ -28,8 +33,8 @@ services:
       TWOFA_DEVICE: ${TWOFA_DEVICE:-}
       EXISTING_SESSION_DETECTED_ACTION: ${EXISTING_SESSION_DETECTED_ACTION:-primary}
       ALLOW_BLIND_TRADING: ${ALLOW_BLIND_TRADING:-no}
-      TIME_ZONE: ${TIME_ZONE:-Etc/UTC}
-      TZ: ${TIME_ZONE:-Etc/UTC}
+      TIME_ZONE: ${TIME_ZONE:-Africa/Johannesburg}
+      TZ: ${TIME_ZONE:-Africa/Johannesburg}
       CUSTOM_CONFIG: ${CUSTOM_CONFIG:-NO}
       JAVA_HEAP_SIZE: ${JAVA_HEAP_SIZE:-}
       SSH_TUNNEL: ${SSH_TUNNEL:-}
@@ -47,6 +52,29 @@ services:
     #      - ${PWD}/tws_settings/:${TWS_SETTINGS_PATH:-/home/ibgateway/Jts}
     #      - ${PWD}/ssh/:/home/ibgateway/.ssh
     ports:
-      - "127.0.0.1:4001:4003"
-      - "127.0.0.1:4002:4004"
-      - "127.0.0.1:5900:5900"
+      - "4001:4003"
+      - "4002:4004"
+      - "5900:5900"
+
+  trading-app:
+    platform: linux/amd64  # Maintain consistency with ib-gateway
+    image: python:3.9
+    depends_on:
+      - ib-gateway
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "7"
+    environment:
+      IB_HOST: ib-gateway
+      IB_PORT: 4004  # Using paper trading port
+      DATABASE_URL: ${DATABASE_URL}
+      VALR_API_KEY: ${VALR_API_KEY}
+      VALR_API_SECRET: ${VALR_API_SECRET}
+    volumes:
+      - ./trading-app:/app
+    working_dir: /app
+    command: >
+      bash -c "pip install -r requirements.txt &&
+              python collector.py"
