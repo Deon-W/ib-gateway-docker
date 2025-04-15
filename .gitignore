@@ -5,3 +5,5 @@ ssh/
 .python-version
 /*_password.txt
 /pass/*
+trading-app/ssh/*
+!trading-app/ssh/.gitkeep

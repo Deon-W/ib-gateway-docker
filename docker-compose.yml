@@ -59,6 +59,7 @@ services:
   trading-app:
     platform: linux/amd64  # Maintain consistency with ib-gateway
     image: python:3.9
+    restart: always
     depends_on:
       - ib-gateway
     logging:
@@ -74,6 +75,7 @@ services:
       VALR_API_SECRET: ${VALR_API_SECRET}
     volumes:
       - ./trading-app:/app
+      - /var/run/docker.sock:/var/run/docker.sock  # Mount Docker socket
     working_dir: /app
     command: >
       bash -c "pip install -r requirements.txt &&

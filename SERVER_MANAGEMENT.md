@@ -68,14 +68,17 @@ The application uses a two-layer logging system to prevent disk space issues:
 
 1. **View Live Logs**
    ```bash
-   # Follow live logs
-   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs -f trading-app"
+   # Follow live logs with timestamps
+   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs -f -t trading-app"
    
    # View last N lines
-   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs --tail=100 trading-app"
+   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs --tail=10000 trading-app"
    
-   # View logs for a specific time period
-   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs --since '2025-04-13' trading-app"
+   # View all logs with timestamps
+   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs -t trading-app"
+   
+   # View logs without color output
+   ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs --no-color trading-app"
    ```
 
 2. **Check Log Disk Usage**

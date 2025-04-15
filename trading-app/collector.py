@@ -13,6 +13,7 @@ import threading
 from ib_insync import *
 from valr_ws import ValrWebSocket
 from usdzar_db import insert_usdzar_data
+from status import status
 
 # Configure logging
 logging.basicConfig(
@@ -44,6 +45,8 @@ class PriceCollector:
 
         self.valr_ws = ValrWebSocket(on_price_update=_on_valr_price_update)
         self.valr_ws_thread = None
+        self.status = status
+        
 
         # Setup signal handlers
         
@@ -165,7 +168,6 @@ class PriceCollector:
                 if ticker.bid is not None and ticker.ask is not None:
                     bid = abs(ticker.bid) if ticker.bid < 0 else ticker.bid  # Convert negative to positive
                     ask = abs(ticker.ask) if ticker.ask < 0 else ticker.ask  # Convert negative to positive
-                    
                     # Validate prices are above minimum threshold
                     if bid >= 2 and ask >= 2:
                         self.ib_bid = bid
@@ -176,6 +178,7 @@ class PriceCollector:
                         self.ib_bid = None
                         self.ib_ask = None
                         error_msg = f"Invalid IB prices detected: bid={bid}, ask={ask} (values below 2)"
+                        self.status.set_inactive()
                         logging.info(error_msg)
                         # logging.info(f"IB   USD/ZAR | Bid: {self.ib_bid:.4f} | Ask: {self.ib_ask:.4f}")
                         logging.info(f"VALR USDTZAR | Bid: {self.valr_bid:.4f} | Ask: {self.valr_ask:.4f}")
@@ -208,6 +211,7 @@ class PriceCollector:
                     
                     try:
                         if insert_usdzar_data(price_data):
+                            self.status.set_running()
                             logging.info(f"Data stored successfully at {current_time.strftime('%H:%M:%S')} - IB: {self.ib_bid:.4f}/{self.ib_ask:.4f}, VALR: {self.valr_bid:.4f}/{self.valr_ask:.4f}")
                         else:
                             error_msg = "Failed to store price data in MongoDB"
