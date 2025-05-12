@@ -83,9 +83,12 @@ class PriceCollector:
                     
                 except Exception as e:
                     logging.error(f"Failed to connect to IB Gateway (attempt {attempt + 1}): {str(e)}")
+                    self.status.set_inactive() 
+                    
                     if attempt < max_retries - 1:
                         await asyncio.sleep(retry_delay)
-                        retry_delay = min(retry_delay * 2, 60)  # Double delay up to 60 seconds
+                        retry_delay = min(retry_delay * 2, 60)
+                        # Double delay up to 60 seconds
                     else:
                         logging.error("Failed all immediate retries, waiting 60 seconds before starting over")
                         await asyncio.sleep(60)

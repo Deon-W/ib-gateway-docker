@@ -4,16 +4,16 @@ default:
 
 # View live logs of the trading app container on prod
 logs:
-    ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs -f trading-app"
+    ssh trading-server "cd ib-gateway-docker && docker-compose logs -f trading-app"
 
 # View last N lines of logs (default: 100)
 logs-tail n="100":
-    ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose logs --tail={{n}} trading-app"
+    ssh trading-server "cd ib-gateway-docker && docker-compose logs --tail={{n}} trading-app"
 
 # Deploy code changes to prod
 deploy files:
-    scp {{files}} root@209.38.162.223:~/ib-gateway-docker/trading-app/ && \
-    ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose restart trading-app"
+    scp {{files}} trading-server:~/ib-gateway-docker/trading-app/ && \
+    ssh trading-server "cd ib-gateway-docker && docker-compose restart trading-app"
 
 # Restart both containers
 restart:
@@ -21,15 +21,15 @@ restart:
 
 # Stop all containers on prod
 stop:
-    ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose down"
+    ssh trading-server "cd ib-gateway-docker && docker-compose down"
 
 # Start all containers on prod
 start:
-    ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose up -d"
+    ssh trading-server "cd ib-gateway-docker && docker-compose up -d"
 
 # Check container status
 status:
-    ssh root@209.38.162.223 "cd ib-gateway-docker && docker-compose ps"
+    ssh trading-server "cd ib-gateway-docker && docker-compose ps"
 
 # View container resource usage
 stats:

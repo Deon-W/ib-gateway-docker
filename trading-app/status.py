@@ -8,7 +8,7 @@ class Status:
     def __init__(self):
         self.current = "RUNNING"
         self.error_count = 0
-        self.max_errors = 10
+        self.max_errors = 8
     
     def restart_services(self):
         try:
