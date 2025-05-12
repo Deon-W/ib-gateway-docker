@@ -1,6 +1,8 @@
 import sys
 import logging
 import docker
+import logging
+import sys
 
 class Status:
     def __init__(self):
@@ -15,12 +17,12 @@ class Status:
             client = docker.from_env()
             
             # Restart IB Gateway first
-            ib_container = client.containers.get('ib-gateway-docker-ib-gateway-1')
+            ib_container = client.containers.get('ib-gateway-docker_ib-gateway_1')
             ib_container.restart()
             logging.info("IB Gateway container restart initiated")
             
             # Then restart trading-app
-            trading_container = client.containers.get('ib-gateway-docker-trading-app-1')
+            trading_container = client.containers.get('ib-gateway-docker_trading-app_1')
             trading_container.restart()
             logging.info("Trading app container restart initiated")
             

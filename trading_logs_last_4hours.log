@@ -1,0 +1,628 @@
+[36mtrading-app_1  |[0m 2025-05-12T05:00:16.603796024Z 2025-05-12 05:00:16,603 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:00:16.603873232Z 2025-05-12 05:00:16,603 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:00:16.607304840Z 2025-05-12 05:00:16,607 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:00:20.611723194Z 2025-05-12 05:00:20,611 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:00:20.612708086Z 2025-05-12 05:00:20,612 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:00:20.612775080Z 2025-05-12 05:00:20,612 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:00:20.612783223Z 2025-05-12 05:00:20,612 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:00:25.619378339Z 2025-05-12 05:00:25,618 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:00:25.619441261Z 2025-05-12 05:00:25,618 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:00:25.622423544Z 2025-05-12 05:00:25,621 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:00:29.628698453Z 2025-05-12 05:00:29,627 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:00:29.628827455Z 2025-05-12 05:00:29,628 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:00:29.628834918Z 2025-05-12 05:00:29,628 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:00:29.628838068Z 2025-05-12 05:00:29,628 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:00:39.640460671Z 2025-05-12 05:00:39,639 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:00:39.640508747Z 2025-05-12 05:00:39,639 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:00:39.643727722Z 2025-05-12 05:00:39,642 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:00:43.649404771Z 2025-05-12 05:00:43,648 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:00:43.649451671Z 2025-05-12 05:00:43,649 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:00:43.649454683Z 2025-05-12 05:00:43,649 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:00:43.649456986Z 2025-05-12 05:00:43,649 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:01:03.666600077Z 2025-05-12 05:01:03,666 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:01:03.667033247Z 2025-05-12 05:01:03,666 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:01:03.669766576Z 2025-05-12 05:01:03,668 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:01:07.675533459Z 2025-05-12 05:01:07,674 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:01:07.675585190Z 2025-05-12 05:01:07,674 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:01:07.675590914Z 2025-05-12 05:01:07,675 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:01:07.675595735Z 2025-05-12 05:01:07,675 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:01:47.707066464Z 2025-05-12 05:01:47,706 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:01:47.707503450Z 2025-05-12 05:01:47,707 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:01:47.717415701Z 2025-05-12 05:01:47,717 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:01:51.731012812Z 2025-05-12 05:01:51,730 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:01:51.731078023Z 2025-05-12 05:01:51,730 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:01:51.731082756Z 2025-05-12 05:01:51,730 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:01:51.731086640Z 2025-05-12 05:01:51,730 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:01:51.731297036Z 2025-05-12 05:01:51,730 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:02:51.747569780Z 2025-05-12 05:02:51,747 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:03:51.811497821Z 2025-05-12 05:03:51,811 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:03:51.818437144Z 2025-05-12 05:03:51,818 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:03:51.830613537Z 2025-05-12 05:03:51,830 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:03:55.839565203Z 2025-05-12 05:03:55,839 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:03:55.840157002Z 2025-05-12 05:03:55,839 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:03:55.840395078Z 2025-05-12 05:03:55,840 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:03:55.840670437Z 2025-05-12 05:03:55,840 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:04:00.846925526Z 2025-05-12 05:04:00,846 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:04:00.847164922Z 2025-05-12 05:04:00,847 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:04:00.849350782Z 2025-05-12 05:04:00,848 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:04:04.855289104Z 2025-05-12 05:04:04,854 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:04:04.855327457Z 2025-05-12 05:04:04,854 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:04:04.855330356Z 2025-05-12 05:04:04,854 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:04:04.855332940Z 2025-05-12 05:04:04,854 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:04:14.857853321Z 2025-05-12 05:04:14,857 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:04:14.857915414Z 2025-05-12 05:04:14,857 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:04:14.861053901Z 2025-05-12 05:04:14,859 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:04:18.870135858Z 2025-05-12 05:04:18,869 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:04:18.870616587Z 2025-05-12 05:04:18,870 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:04:18.870807973Z 2025-05-12 05:04:18,870 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:04:18.871163793Z 2025-05-12 05:04:18,871 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:04:38.897993334Z 2025-05-12 05:04:38,896 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:04:38.901371165Z 2025-05-12 05:04:38,901 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:04:38.910691203Z 2025-05-12 05:04:38,910 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:04:42.919598647Z 2025-05-12 05:04:42,919 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:04:42.924695949Z 2025-05-12 05:04:42,924 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:04:42.924913565Z 2025-05-12 05:04:42,924 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:04:42.925114693Z 2025-05-12 05:04:42,925 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:05:22.946934815Z 2025-05-12 05:05:22,946 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:05:22.947329871Z 2025-05-12 05:05:22,947 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:05:22.949731420Z 2025-05-12 05:05:22,949 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:05:26.966615298Z 2025-05-12 05:05:26,966 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:05:26.967173865Z 2025-05-12 05:05:26,967 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:05:26.970726760Z 2025-05-12 05:05:26,970 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:05:26.971024169Z 2025-05-12 05:05:26,970 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:05:26.971374652Z 2025-05-12 05:05:26,971 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:06:27.015713389Z 2025-05-12 05:06:27,015 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:07:27.075850296Z 2025-05-12 05:07:27,075 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:07:27.075912572Z 2025-05-12 05:07:27,075 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:07:27.079297995Z 2025-05-12 05:07:27,079 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:07:31.085112810Z 2025-05-12 05:07:31,084 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:07:31.085162276Z 2025-05-12 05:07:31,084 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:07:31.085187584Z 2025-05-12 05:07:31,084 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:07:31.085558106Z 2025-05-12 05:07:31,085 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:07:36.094036063Z 2025-05-12 05:07:36,093 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:07:36.094101148Z 2025-05-12 05:07:36,093 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:07:36.096953067Z 2025-05-12 05:07:36,096 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:07:40.102633684Z 2025-05-12 05:07:40,101 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:07:40.102671399Z 2025-05-12 05:07:40,102 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:07:40.102676085Z 2025-05-12 05:07:40,102 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:07:40.102680051Z 2025-05-12 05:07:40,102 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:07:50.107045288Z 2025-05-12 05:07:50,106 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:07:50.107109154Z 2025-05-12 05:07:50,106 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:07:50.110257007Z 2025-05-12 05:07:50,109 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:07:54.115014046Z 2025-05-12 05:07:54,114 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:07:54.115053408Z 2025-05-12 05:07:54,114 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:07:54.115057323Z 2025-05-12 05:07:54,114 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:07:54.115060341Z 2025-05-12 05:07:54,114 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:08:14.132471517Z 2025-05-12 05:08:14,131 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:08:14.132533984Z 2025-05-12 05:08:14,131 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:08:14.135913404Z 2025-05-12 05:08:14,134 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:08:18.141003931Z 2025-05-12 05:08:18,140 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:08:18.141274197Z 2025-05-12 05:08:18,140 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:08:18.141483247Z 2025-05-12 05:08:18,141 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:08:18.141897483Z 2025-05-12 05:08:18,141 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:08:58.168660163Z 2025-05-12 05:08:58,168 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:08:58.168710147Z 2025-05-12 05:08:58,168 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:08:58.171378701Z 2025-05-12 05:08:58,170 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:09:02.176948685Z 2025-05-12 05:09:02,176 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:09:02.177583367Z 2025-05-12 05:09:02,177 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:09:02.177904744Z 2025-05-12 05:09:02,177 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:09:02.178140633Z 2025-05-12 05:09:02,177 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:09:02.178511503Z 2025-05-12 05:09:02,178 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:10:02.239580705Z 2025-05-12 05:10:02,239 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:11:02.305948938Z 2025-05-12 05:11:02,305 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:11:02.306295477Z 2025-05-12 05:11:02,305 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:11:02.309980486Z 2025-05-12 05:11:02,309 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:11:06.320054227Z 2025-05-12 05:11:06,319 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:11:06.320100390Z 2025-05-12 05:11:06,319 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:11:06.320105431Z 2025-05-12 05:11:06,319 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:11:06.320123237Z 2025-05-12 05:11:06,319 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:11:11.327036963Z 2025-05-12 05:11:11,326 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:11:11.327083461Z 2025-05-12 05:11:11,326 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:11:11.330235941Z 2025-05-12 05:11:11,330 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:11:15.336009759Z 2025-05-12 05:11:15,335 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:11:15.336078397Z 2025-05-12 05:11:15,335 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:11:15.336083306Z 2025-05-12 05:11:15,335 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:11:15.336256028Z 2025-05-12 05:11:15,335 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:11:25.347564276Z 2025-05-12 05:11:25,346 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:11:25.347634114Z 2025-05-12 05:11:25,347 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:11:25.350617896Z 2025-05-12 05:11:25,349 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:11:29.356020931Z 2025-05-12 05:11:29,355 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:11:29.356734969Z 2025-05-12 05:11:29,356 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:11:29.356741454Z 2025-05-12 05:11:29,356 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:11:29.356744751Z 2025-05-12 05:11:29,356 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:11:49.378447245Z 2025-05-12 05:11:49,377 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:11:49.378517614Z 2025-05-12 05:11:49,377 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:11:49.381335475Z 2025-05-12 05:11:49,380 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:11:53.387015284Z 2025-05-12 05:11:53,386 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:11:53.387081588Z 2025-05-12 05:11:53,386 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:11:53.387086229Z 2025-05-12 05:11:53,386 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:11:53.387090107Z 2025-05-12 05:11:53,386 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:12:33.416440743Z 2025-05-12 05:12:33,415 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:12:33.416881772Z 2025-05-12 05:12:33,416 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:12:33.419966370Z 2025-05-12 05:12:33,418 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:12:37.425715197Z 2025-05-12 05:12:37,424 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:12:37.425753102Z 2025-05-12 05:12:37,425 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:12:37.425757709Z 2025-05-12 05:12:37,425 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:12:37.425761967Z 2025-05-12 05:12:37,425 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:12:37.425765851Z 2025-05-12 05:12:37,425 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:13:37.479643978Z 2025-05-12 05:13:37,479 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:14:37.526009517Z 2025-05-12 05:14:37,525 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:14:37.526058305Z 2025-05-12 05:14:37,525 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:14:37.529587419Z 2025-05-12 05:14:37,528 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:14:41.535007486Z 2025-05-12 05:14:41,534 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:14:41.535425833Z 2025-05-12 05:14:41,535 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:14:41.535596944Z 2025-05-12 05:14:41,535 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:14:41.535882141Z 2025-05-12 05:14:41,535 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:14:46.542552144Z 2025-05-12 05:14:46,541 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:14:46.542590539Z 2025-05-12 05:14:46,542 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:14:46.545414820Z 2025-05-12 05:14:46,544 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:14:50.551073248Z 2025-05-12 05:14:50,550 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:14:50.551781833Z 2025-05-12 05:14:50,551 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:14:50.551797484Z 2025-05-12 05:14:50,551 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:14:50.551801244Z 2025-05-12 05:14:50,551 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:15:00.556628144Z 2025-05-12 05:15:00,555 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:15:00.556671880Z 2025-05-12 05:15:00,556 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:15:00.559665164Z 2025-05-12 05:15:00,558 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:15:04.565766036Z 2025-05-12 05:15:04,564 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:15:04.565812879Z 2025-05-12 05:15:04,565 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:15:04.565817686Z 2025-05-12 05:15:04,565 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:15:04.565821292Z 2025-05-12 05:15:04,565 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:15:24.581736997Z 2025-05-12 05:15:24,581 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:15:24.581779743Z 2025-05-12 05:15:24,581 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:15:24.584439424Z 2025-05-12 05:15:24,583 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:15:28.590051820Z 2025-05-12 05:15:28,589 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:15:28.590116839Z 2025-05-12 05:15:28,589 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:15:28.590121927Z 2025-05-12 05:15:28,589 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:15:28.590423573Z 2025-05-12 05:15:28,590 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:16:08.628397216Z 2025-05-12 05:16:08,627 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:16:08.628456147Z 2025-05-12 05:16:08,627 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:16:08.631416637Z 2025-05-12 05:16:08,630 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:16:12.635148877Z 2025-05-12 05:16:12,634 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:16:12.635378214Z 2025-05-12 05:16:12,634 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:16:12.635673570Z 2025-05-12 05:16:12,635 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:16:12.635907789Z 2025-05-12 05:16:12,635 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:16:12.636231082Z 2025-05-12 05:16:12,636 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:17:12.691968522Z 2025-05-12 05:17:12,691 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:18:12.762107004Z 2025-05-12 05:18:12,760 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:18:12.767640289Z 2025-05-12 05:18:12,767 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:18:12.780085251Z 2025-05-12 05:18:12,778 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:18:16.790308640Z 2025-05-12 05:18:16,790 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:18:16.790756482Z 2025-05-12 05:18:16,790 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:18:16.790990411Z 2025-05-12 05:18:16,790 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:18:16.791354285Z 2025-05-12 05:18:16,791 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:18:21.797464535Z 2025-05-12 05:18:21,796 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:18:21.797780058Z 2025-05-12 05:18:21,797 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:18:21.808064429Z 2025-05-12 05:18:21,807 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:18:25.814083261Z 2025-05-12 05:18:25,813 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:18:25.814119268Z 2025-05-12 05:18:25,813 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:18:25.814122297Z 2025-05-12 05:18:25,813 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:18:25.814124724Z 2025-05-12 05:18:25,813 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:18:35.825395388Z 2025-05-12 05:18:35,824 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:18:35.825434679Z 2025-05-12 05:18:35,824 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:18:35.828841265Z 2025-05-12 05:18:35,828 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:18:39.834688382Z 2025-05-12 05:18:39,833 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:18:39.834724547Z 2025-05-12 05:18:39,834 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:18:39.834728279Z 2025-05-12 05:18:39,834 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:18:39.834731380Z 2025-05-12 05:18:39,834 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:18:59.856480493Z 2025-05-12 05:18:59,855 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:18:59.856554105Z 2025-05-12 05:18:59,856 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:18:59.859396717Z 2025-05-12 05:18:59,858 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:19:03.865019686Z 2025-05-12 05:19:03,864 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:19:03.865062284Z 2025-05-12 05:19:03,864 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:19:03.865066887Z 2025-05-12 05:19:03,864 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:19:03.865070578Z 2025-05-12 05:19:03,864 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:19:43.901528625Z 2025-05-12 05:19:43,901 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:19:43.901919952Z 2025-05-12 05:19:43,901 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:19:43.904683046Z 2025-05-12 05:19:43,903 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:19:47.909698666Z 2025-05-12 05:19:47,908 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:19:47.909738274Z 2025-05-12 05:19:47,909 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:19:47.909760232Z 2025-05-12 05:19:47,909 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:19:47.909762879Z 2025-05-12 05:19:47,909 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:19:47.909765121Z 2025-05-12 05:19:47,909 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:20:47.942889632Z 2025-05-12 05:20:47,942 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:21:47.976013697Z 2025-05-12 05:21:47,975 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:21:47.976060151Z 2025-05-12 05:21:47,975 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:21:47.978680520Z 2025-05-12 05:21:47,977 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:21:51.984419607Z 2025-05-12 05:21:51,983 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:21:51.984471460Z 2025-05-12 05:21:51,984 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:21:51.984479342Z 2025-05-12 05:21:51,984 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:21:51.984485758Z 2025-05-12 05:21:51,984 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:21:56.990505944Z 2025-05-12 05:21:56,989 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:21:56.990554207Z 2025-05-12 05:21:56,990 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:21:56.993736581Z 2025-05-12 05:21:56,992 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:22:00.999516754Z 2025-05-12 05:22:00,998 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:22:00.999553138Z 2025-05-12 05:22:00,998 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:22:00.999556776Z 2025-05-12 05:22:00,999 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:22:00.999560367Z 2025-05-12 05:22:00,999 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:22:11.011358796Z 2025-05-12 05:22:11,010 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:22:11.011415074Z 2025-05-12 05:22:11,010 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:22:11.014372738Z 2025-05-12 05:22:11,013 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:22:15.020011510Z 2025-05-12 05:22:15,019 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:22:15.020097272Z 2025-05-12 05:22:15,019 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:22:15.020254622Z 2025-05-12 05:22:15,020 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:22:15.020537566Z 2025-05-12 05:22:15,020 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:22:35.042071028Z 2025-05-12 05:22:35,041 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:22:35.042119657Z 2025-05-12 05:22:35,041 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:22:35.044989368Z 2025-05-12 05:22:35,043 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:22:39.050772896Z 2025-05-12 05:22:39,049 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:22:39.050810158Z 2025-05-12 05:22:39,050 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:22:39.050833228Z 2025-05-12 05:22:39,050 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:22:39.050836597Z 2025-05-12 05:22:39,050 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:23:19.089116841Z 2025-05-12 05:23:19,088 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:23:19.089164949Z 2025-05-12 05:23:19,088 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:23:19.092038563Z 2025-05-12 05:23:19,091 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:23:23.098097487Z 2025-05-12 05:23:23,096 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:23:23.098145299Z 2025-05-12 05:23:23,097 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:23:23.098150702Z 2025-05-12 05:23:23,097 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:23:23.098170799Z 2025-05-12 05:23:23,097 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:23:23.098175570Z 2025-05-12 05:23:23,097 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:24:23.155140331Z 2025-05-12 05:24:23,154 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:25:23.211874970Z 2025-05-12 05:25:23,210 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:25:23.211936381Z 2025-05-12 05:25:23,211 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:25:23.215518912Z 2025-05-12 05:25:23,215 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:25:27.222933054Z 2025-05-12 05:25:27,220 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:25:27.226078526Z 2025-05-12 05:25:27,225 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:25:27.226484182Z 2025-05-12 05:25:27,226 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:25:27.226830128Z 2025-05-12 05:25:27,226 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:25:32.233558637Z 2025-05-12 05:25:32,233 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:25:32.233625181Z 2025-05-12 05:25:32,233 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:25:32.236592468Z 2025-05-12 05:25:32,235 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:25:36.242487590Z 2025-05-12 05:25:36,241 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:25:36.242527693Z 2025-05-12 05:25:36,242 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:25:36.242531656Z 2025-05-12 05:25:36,242 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:25:36.242534778Z 2025-05-12 05:25:36,242 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:25:46.249817629Z 2025-05-12 05:25:46,249 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:25:46.249855370Z 2025-05-12 05:25:46,249 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:25:46.252980255Z 2025-05-12 05:25:46,251 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:25:50.258410079Z 2025-05-12 05:25:50,257 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:25:50.259311998Z 2025-05-12 05:25:50,258 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:25:50.259851546Z 2025-05-12 05:25:50,258 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:25:50.259879712Z 2025-05-12 05:25:50,259 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:26:10.264920557Z 2025-05-12 05:26:10,264 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:26:10.264979324Z 2025-05-12 05:26:10,264 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:26:10.268156296Z 2025-05-12 05:26:10,267 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:26:14.273990116Z 2025-05-12 05:26:14,273 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:26:14.274028110Z 2025-05-12 05:26:14,273 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:26:14.274032869Z 2025-05-12 05:26:14,273 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:26:14.274037051Z 2025-05-12 05:26:14,273 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:26:54.309663577Z 2025-05-12 05:26:54,309 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:26:54.309837499Z 2025-05-12 05:26:54,309 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:26:54.311986679Z 2025-05-12 05:26:54,311 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:26:58.316999446Z 2025-05-12 05:26:58,316 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:26:58.317038801Z 2025-05-12 05:26:58,316 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:26:58.317043813Z 2025-05-12 05:26:58,316 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:26:58.317047735Z 2025-05-12 05:26:58,316 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:26:58.317051599Z 2025-05-12 05:26:58,316 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:27:58.355593156Z 2025-05-12 05:27:58,355 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:28:58.391898623Z 2025-05-12 05:28:58,391 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:28:58.392165724Z 2025-05-12 05:28:58,391 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:28:58.394807022Z 2025-05-12 05:28:58,393 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:29:02.400722470Z 2025-05-12 05:29:02,399 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:29:02.400768567Z 2025-05-12 05:29:02,400 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:29:02.400773738Z 2025-05-12 05:29:02,400 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:29:02.400777935Z 2025-05-12 05:29:02,400 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:29:07.407218267Z 2025-05-12 05:29:07,406 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:29:07.407257761Z 2025-05-12 05:29:07,406 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:29:07.409797434Z 2025-05-12 05:29:07,408 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:29:11.415890014Z 2025-05-12 05:29:11,414 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:29:11.415931744Z 2025-05-12 05:29:11,415 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:29:11.415955006Z 2025-05-12 05:29:11,415 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:29:11.415958324Z 2025-05-12 05:29:11,415 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:29:21.417676921Z 2025-05-12 05:29:21,417 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:29:21.417727241Z 2025-05-12 05:29:21,417 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:29:21.421049209Z 2025-05-12 05:29:21,420 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:29:25.426532338Z 2025-05-12 05:29:25,425 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:29:25.426570759Z 2025-05-12 05:29:25,426 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:29:25.426573795Z 2025-05-12 05:29:25,426 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:29:25.426576100Z 2025-05-12 05:29:25,426 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:29:45.444923765Z 2025-05-12 05:29:45,444 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:29:45.444966628Z 2025-05-12 05:29:45,444 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:29:45.447967900Z 2025-05-12 05:29:45,446 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:29:49.452437746Z 2025-05-12 05:29:49,451 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:29:49.452476903Z 2025-05-12 05:29:49,452 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:29:49.452738631Z 2025-05-12 05:29:49,452 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:29:49.453044241Z 2025-05-12 05:29:49,452 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:30:29.483669652Z 2025-05-12 05:30:29,482 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:30:29.483824567Z 2025-05-12 05:30:29,482 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:30:29.487555775Z 2025-05-12 05:30:29,486 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:30:33.492031163Z 2025-05-12 05:30:33,491 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:30:33.492219418Z 2025-05-12 05:30:33,491 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:30:33.492441054Z 2025-05-12 05:30:33,492 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:30:33.492601157Z 2025-05-12 05:30:33,492 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:30:33.492883180Z 2025-05-12 05:30:33,492 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:31:33.547007271Z 2025-05-12 05:31:33,546 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:32:33.600848109Z 2025-05-12 05:32:33,600 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:32:33.600930175Z 2025-05-12 05:32:33,600 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:32:33.603628562Z 2025-05-12 05:32:33,602 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:32:37.609067769Z 2025-05-12 05:32:37,608 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:32:37.609155192Z 2025-05-12 05:32:37,608 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:32:37.609297383Z 2025-05-12 05:32:37,608 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:32:37.609529827Z 2025-05-12 05:32:37,609 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:32:42.616227974Z 2025-05-12 05:32:42,615 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:32:42.616557505Z 2025-05-12 05:32:42,616 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:32:42.620224953Z 2025-05-12 05:32:42,619 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:32:46.627857372Z 2025-05-12 05:32:46,627 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:32:46.627929777Z 2025-05-12 05:32:46,627 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:32:46.627934094Z 2025-05-12 05:32:46,627 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:32:46.627937677Z 2025-05-12 05:32:46,627 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:32:56.639475380Z 2025-05-12 05:32:56,638 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:32:56.639513795Z 2025-05-12 05:32:56,638 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:32:56.642393522Z 2025-05-12 05:32:56,641 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:33:00.645986595Z 2025-05-12 05:33:00,645 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:33:00.646024726Z 2025-05-12 05:33:00,645 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:33:00.646027888Z 2025-05-12 05:33:00,645 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:33:00.646030475Z 2025-05-12 05:33:00,645 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:33:20.658507545Z 2025-05-12 05:33:20,657 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:33:20.658694751Z 2025-05-12 05:33:20,658 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:33:20.662243448Z 2025-05-12 05:33:20,662 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:33:24.668013894Z 2025-05-12 05:33:24,667 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:33:24.668077389Z 2025-05-12 05:33:24,667 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:33:24.668081421Z 2025-05-12 05:33:24,667 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:33:24.668084662Z 2025-05-12 05:33:24,667 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:34:04.707854607Z 2025-05-12 05:34:04,707 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:34:04.707940982Z 2025-05-12 05:34:04,707 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:34:04.711758405Z 2025-05-12 05:34:04,711 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:34:08.717561971Z 2025-05-12 05:34:08,716 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:34:08.717601751Z 2025-05-12 05:34:08,717 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:34:08.717605654Z 2025-05-12 05:34:08,717 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:34:08.717608980Z 2025-05-12 05:34:08,717 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:34:08.717632252Z 2025-05-12 05:34:08,717 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:35:08.776223899Z 2025-05-12 05:35:08,775 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:36:08.829017552Z 2025-05-12 05:36:08,828 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:36:08.829085131Z 2025-05-12 05:36:08,828 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:36:08.831629964Z 2025-05-12 05:36:08,831 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:36:12.835267064Z 2025-05-12 05:36:12,834 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:36:12.835304924Z 2025-05-12 05:36:12,835 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:36:12.835598601Z 2025-05-12 05:36:12,835 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:36:12.835873352Z 2025-05-12 05:36:12,835 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:36:17.841426770Z 2025-05-12 05:36:17,840 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:36:17.841463252Z 2025-05-12 05:36:17,841 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:36:17.843895560Z 2025-05-12 05:36:17,842 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:36:21.847322052Z 2025-05-12 05:36:21,846 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:36:21.847359394Z 2025-05-12 05:36:21,846 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:36:21.847363147Z 2025-05-12 05:36:21,847 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:36:21.847366150Z 2025-05-12 05:36:21,847 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:36:31.852537480Z 2025-05-12 05:36:31,851 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:36:31.852632143Z 2025-05-12 05:36:31,852 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:36:31.856062816Z 2025-05-12 05:36:31,854 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:36:35.859338558Z 2025-05-12 05:36:35,858 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:36:35.859377991Z 2025-05-12 05:36:35,858 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:36:35.859381714Z 2025-05-12 05:36:35,859 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:36:35.859384638Z 2025-05-12 05:36:35,859 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:36:55.877075411Z 2025-05-12 05:36:55,876 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:36:55.877263880Z 2025-05-12 05:36:55,876 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:36:55.880445249Z 2025-05-12 05:36:55,879 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:36:59.886014827Z 2025-05-12 05:36:59,885 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:36:59.886084027Z 2025-05-12 05:36:59,885 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:36:59.886191210Z 2025-05-12 05:36:59,885 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:36:59.886532922Z 2025-05-12 05:36:59,886 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:37:39.923771954Z 2025-05-12 05:37:39,922 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:37:39.923846156Z 2025-05-12 05:37:39,923 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:37:39.926810594Z 2025-05-12 05:37:39,925 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:37:43.932389325Z 2025-05-12 05:37:43,931 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:37:43.932428450Z 2025-05-12 05:37:43,931 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:37:43.932432382Z 2025-05-12 05:37:43,932 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:37:43.932436127Z 2025-05-12 05:37:43,932 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:37:43.932439208Z 2025-05-12 05:37:43,932 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:38:43.961829240Z 2025-05-12 05:38:43,961 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:39:44.019658312Z 2025-05-12 05:39:44,018 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:39:44.019709964Z 2025-05-12 05:39:44,019 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:39:44.021961665Z 2025-05-12 05:39:44,021 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:39:48.025082428Z 2025-05-12 05:39:48,024 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:39:48.025129566Z 2025-05-12 05:39:48,024 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:39:48.025152711Z 2025-05-12 05:39:48,024 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:39:48.025157094Z 2025-05-12 05:39:48,024 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:39:53.032185348Z 2025-05-12 05:39:53,031 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:39:53.032231613Z 2025-05-12 05:39:53,031 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:39:53.035922507Z 2025-05-12 05:39:53,035 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:39:57.042886897Z 2025-05-12 05:39:57,041 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:39:57.042926892Z 2025-05-12 05:39:57,042 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:39:57.042931933Z 2025-05-12 05:39:57,042 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:39:57.042935918Z 2025-05-12 05:39:57,042 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:40:07.049158361Z 2025-05-12 05:40:07,048 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:40:07.049406804Z 2025-05-12 05:40:07,049 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:40:07.053052415Z 2025-05-12 05:40:07,051 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:40:11.058961161Z 2025-05-12 05:40:11,058 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:40:11.059003644Z 2025-05-12 05:40:11,058 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:40:11.059008038Z 2025-05-12 05:40:11,058 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:40:11.059030616Z 2025-05-12 05:40:11,058 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:40:31.075661010Z 2025-05-12 05:40:31,074 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:40:31.075768808Z 2025-05-12 05:40:31,075 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:40:31.080061275Z 2025-05-12 05:40:31,078 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:40:35.086015223Z 2025-05-12 05:40:35,085 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:40:35.086084875Z 2025-05-12 05:40:35,085 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:40:35.086089878Z 2025-05-12 05:40:35,085 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:40:35.086249723Z 2025-05-12 05:40:35,085 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:41:15.128186613Z 2025-05-12 05:41:15,127 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:41:15.128244326Z 2025-05-12 05:41:15,127 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:41:15.131524072Z 2025-05-12 05:41:15,130 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:41:19.137013834Z 2025-05-12 05:41:19,136 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:41:19.137077725Z 2025-05-12 05:41:19,136 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:41:19.137082634Z 2025-05-12 05:41:19,136 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:41:19.137268609Z 2025-05-12 05:41:19,137 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:41:19.137537121Z 2025-05-12 05:41:19,137 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:42:19.195291022Z 2025-05-12 05:42:19,194 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:43:19.237638520Z 2025-05-12 05:43:19,237 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:43:19.237684628Z 2025-05-12 05:43:19,237 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:43:19.240491499Z 2025-05-12 05:43:19,239 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:43:23.246044673Z 2025-05-12 05:43:23,245 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:43:23.246348967Z 2025-05-12 05:43:23,246 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:43:23.246508581Z 2025-05-12 05:43:23,246 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:43:23.246717104Z 2025-05-12 05:43:23,246 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:43:28.253439106Z 2025-05-12 05:43:28,252 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:43:28.253508065Z 2025-05-12 05:43:28,253 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:43:28.256571097Z 2025-05-12 05:43:28,255 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:43:32.259023455Z 2025-05-12 05:43:32,258 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:43:32.259088971Z 2025-05-12 05:43:32,258 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:43:32.259333109Z 2025-05-12 05:43:32,259 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:43:32.259721212Z 2025-05-12 05:43:32,259 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:43:42.275602534Z 2025-05-12 05:43:42,275 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:43:42.275667802Z 2025-05-12 05:43:42,275 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:43:42.278476255Z 2025-05-12 05:43:42,278 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:43:46.280699540Z 2025-05-12 05:43:46,279 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:43:46.280741082Z 2025-05-12 05:43:46,280 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:43:46.280744994Z 2025-05-12 05:43:46,280 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:43:46.280748115Z 2025-05-12 05:43:46,280 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:44:06.296382759Z 2025-05-12 05:44:06,295 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:44:06.296426517Z 2025-05-12 05:44:06,296 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:44:06.298385167Z 2025-05-12 05:44:06,297 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:44:10.304654360Z 2025-05-12 05:44:10,303 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:44:10.304698245Z 2025-05-12 05:44:10,304 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:44:10.304704063Z 2025-05-12 05:44:10,304 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:44:10.304708096Z 2025-05-12 05:44:10,304 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:44:50.331871915Z 2025-05-12 05:44:50,331 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:44:50.332311742Z 2025-05-12 05:44:50,331 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:44:50.334944830Z 2025-05-12 05:44:50,334 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:44:54.340797691Z 2025-05-12 05:44:54,340 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:44:54.340857813Z 2025-05-12 05:44:54,340 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:44:54.340878488Z 2025-05-12 05:44:54,340 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:44:54.340881906Z 2025-05-12 05:44:54,340 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:44:54.341160074Z 2025-05-12 05:44:54,341 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:45:54.387201272Z 2025-05-12 05:45:54,386 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:46:54.445579093Z 2025-05-12 05:46:54,444 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:46:54.445622586Z 2025-05-12 05:46:54,445 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:46:54.448365661Z 2025-05-12 05:46:54,447 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:46:58.450012070Z 2025-05-12 05:46:58,449 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:46:58.450075990Z 2025-05-12 05:46:58,449 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:46:58.450080639Z 2025-05-12 05:46:58,449 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:46:58.450101660Z 2025-05-12 05:46:58,449 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:47:03.456032936Z 2025-05-12 05:47:03,454 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:47:03.456083550Z 2025-05-12 05:47:03,454 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:47:03.459831383Z 2025-05-12 05:47:03,459 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:47:07.465668225Z 2025-05-12 05:47:07,464 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:47:07.465709740Z 2025-05-12 05:47:07,465 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:47:07.465714190Z 2025-05-12 05:47:07,465 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:47:07.465717905Z 2025-05-12 05:47:07,465 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:47:17.474964108Z 2025-05-12 05:47:17,474 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:47:17.475033685Z 2025-05-12 05:47:17,474 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:47:17.477961521Z 2025-05-12 05:47:17,477 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:47:21.483065970Z 2025-05-12 05:47:21,482 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:47:21.483274440Z 2025-05-12 05:47:21,482 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:47:21.483612082Z 2025-05-12 05:47:21,483 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:47:21.483922100Z 2025-05-12 05:47:21,483 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:47:41.502997543Z 2025-05-12 05:47:41,502 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:47:41.503062299Z 2025-05-12 05:47:41,502 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:47:41.505164579Z 2025-05-12 05:47:41,504 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:47:45.511017488Z 2025-05-12 05:47:45,510 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:47:45.511082352Z 2025-05-12 05:47:45,510 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:47:45.511279866Z 2025-05-12 05:47:45,511 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:47:45.511620441Z 2025-05-12 05:47:45,511 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:48:25.551362784Z 2025-05-12 05:48:25,550 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:48:25.552214002Z 2025-05-12 05:48:25,550 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:48:25.554352726Z 2025-05-12 05:48:25,553 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:48:29.560093526Z 2025-05-12 05:48:29,559 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:48:29.560136659Z 2025-05-12 05:48:29,559 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:48:29.560141775Z 2025-05-12 05:48:29,559 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:48:29.560162254Z 2025-05-12 05:48:29,559 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:48:29.560588776Z 2025-05-12 05:48:29,560 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:49:29.600556416Z 2025-05-12 05:49:29,600 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:50:29.650858596Z 2025-05-12 05:50:29,650 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:50:29.650926143Z 2025-05-12 05:50:29,650 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:50:29.654108642Z 2025-05-12 05:50:29,653 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:50:33.658031186Z 2025-05-12 05:50:33,657 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:50:33.658431290Z 2025-05-12 05:50:33,658 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:50:33.658675118Z 2025-05-12 05:50:33,658 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:50:33.659040479Z 2025-05-12 05:50:33,658 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:50:38.665726191Z 2025-05-12 05:50:38,665 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:50:38.665833370Z 2025-05-12 05:50:38,665 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:50:38.669106537Z 2025-05-12 05:50:38,668 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:50:42.675184847Z 2025-05-12 05:50:42,674 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:50:42.675230566Z 2025-05-12 05:50:42,674 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:50:42.675235843Z 2025-05-12 05:50:42,674 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:50:42.675252891Z 2025-05-12 05:50:42,674 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:50:52.678524058Z 2025-05-12 05:50:52,677 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:50:52.678572048Z 2025-05-12 05:50:52,678 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:50:52.681746096Z 2025-05-12 05:50:52,680 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:50:56.687590042Z 2025-05-12 05:50:56,686 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:50:56.687629080Z 2025-05-12 05:50:56,687 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:50:56.687633768Z 2025-05-12 05:50:56,687 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:50:56.687637927Z 2025-05-12 05:50:56,687 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:51:16.707194162Z 2025-05-12 05:51:16,706 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:51:16.707244484Z 2025-05-12 05:51:16,707 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:51:16.709972521Z 2025-05-12 05:51:16,709 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:51:20.715946298Z 2025-05-12 05:51:20,715 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:51:20.715986398Z 2025-05-12 05:51:20,715 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:51:20.715992390Z 2025-05-12 05:51:20,715 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:51:20.715997974Z 2025-05-12 05:51:20,715 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:52:00.741426101Z 2025-05-12 05:52:00,740 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:52:00.741610698Z 2025-05-12 05:52:00,740 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:52:00.743255635Z 2025-05-12 05:52:00,743 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:52:04.749897696Z 2025-05-12 05:52:04,748 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:52:04.749943649Z 2025-05-12 05:52:04,749 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:52:04.749948932Z 2025-05-12 05:52:04,749 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:52:04.749953052Z 2025-05-12 05:52:04,749 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:52:04.749956959Z 2025-05-12 05:52:04,749 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:53:04.807446885Z 2025-05-12 05:53:04,807 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:54:04.854828950Z 2025-05-12 05:54:04,854 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:54:04.854897505Z 2025-05-12 05:54:04,854 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:54:04.858466092Z 2025-05-12 05:54:04,857 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:54:08.863601017Z 2025-05-12 05:54:08,862 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:54:08.863639707Z 2025-05-12 05:54:08,863 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:54:08.863643350Z 2025-05-12 05:54:08,863 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:54:08.863646493Z 2025-05-12 05:54:08,863 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:54:13.870595369Z 2025-05-12 05:54:13,869 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:54:13.870676499Z 2025-05-12 05:54:13,870 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:54:13.882366714Z 2025-05-12 05:54:13,882 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:54:17.888015482Z 2025-05-12 05:54:17,887 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:54:17.888087304Z 2025-05-12 05:54:17,887 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:54:17.888246983Z 2025-05-12 05:54:17,887 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:54:17.888547042Z 2025-05-12 05:54:17,888 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:54:27.893382758Z 2025-05-12 05:54:27,892 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:54:27.893421936Z 2025-05-12 05:54:27,893 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:54:27.895567086Z 2025-05-12 05:54:27,894 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:54:31.897997428Z 2025-05-12 05:54:31,897 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:54:31.898037609Z 2025-05-12 05:54:31,897 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:54:31.898041223Z 2025-05-12 05:54:31,897 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:54:31.898044485Z 2025-05-12 05:54:31,897 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:54:51.912581950Z 2025-05-12 05:54:51,911 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:54:51.913059591Z 2025-05-12 05:54:51,912 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:54:51.915721368Z 2025-05-12 05:54:51,914 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:54:55.921452838Z 2025-05-12 05:54:55,920 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:54:55.921495195Z 2025-05-12 05:54:55,921 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:54:55.921498565Z 2025-05-12 05:54:55,921 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:54:55.921501207Z 2025-05-12 05:54:55,921 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:55:35.962477515Z 2025-05-12 05:55:35,961 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:55:35.962552104Z 2025-05-12 05:55:35,962 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:55:35.965386711Z 2025-05-12 05:55:35,964 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:55:39.971056546Z 2025-05-12 05:55:39,970 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:55:39.971096460Z 2025-05-12 05:55:39,970 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:55:39.971101147Z 2025-05-12 05:55:39,970 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:55:39.971355984Z 2025-05-12 05:55:39,971 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:55:39.971739907Z 2025-05-12 05:55:39,971 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:56:40.018728263Z 2025-05-12 05:56:40,018 - ERROR - All connection attempts failed, waiting 60 seconds before next round
+[36mtrading-app_1  |[0m 2025-05-12T05:57:40.082042120Z 2025-05-12 05:57:40,081 - INFO - Attempting to connect to IB Gateway (attempt 1/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:57:40.082948752Z 2025-05-12 05:57:40,081 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:57:40.096515767Z 2025-05-12 05:57:40,096 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:57:44.102003307Z 2025-05-12 05:57:44,101 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:57:44.102048156Z 2025-05-12 05:57:44,101 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:57:44.102362172Z 2025-05-12 05:57:44,102 - ERROR - Failed to connect to IB Gateway (attempt 1): 
+[36mtrading-app_1  |[0m 2025-05-12T05:57:44.102726862Z 2025-05-12 05:57:44,102 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:57:49.109020524Z 2025-05-12 05:57:49,108 - INFO - Attempting to connect to IB Gateway (attempt 2/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:57:49.109086152Z 2025-05-12 05:57:49,108 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:57:49.112175286Z 2025-05-12 05:57:49,111 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:57:53.116009611Z 2025-05-12 05:57:53,115 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:57:53.116169251Z 2025-05-12 05:57:53,115 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:57:53.116420121Z 2025-05-12 05:57:53,116 - ERROR - Failed to connect to IB Gateway (attempt 2): 
+[36mtrading-app_1  |[0m 2025-05-12T05:57:53.116709032Z 2025-05-12 05:57:53,116 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:58:03.128462972Z 2025-05-12 05:58:03,127 - INFO - Attempting to connect to IB Gateway (attempt 3/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:58:03.128526896Z 2025-05-12 05:58:03,127 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:58:03.138233988Z 2025-05-12 05:58:03,137 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:58:07.145570877Z 2025-05-12 05:58:07,144 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:58:07.145611133Z 2025-05-12 05:58:07,145 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:58:07.145614380Z 2025-05-12 05:58:07,145 - ERROR - Failed to connect to IB Gateway (attempt 3): 
+[36mtrading-app_1  |[0m 2025-05-12T05:58:07.145617240Z 2025-05-12 05:58:07,145 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:58:27.155010998Z 2025-05-12 05:58:27,154 - INFO - Attempting to connect to IB Gateway (attempt 4/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:58:27.155060965Z 2025-05-12 05:58:27,154 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:58:27.158092735Z 2025-05-12 05:58:27,157 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:58:31.163791251Z 2025-05-12 05:58:31,163 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:58:31.164272903Z 2025-05-12 05:58:31,164 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:58:31.164524603Z 2025-05-12 05:58:31,164 - ERROR - Failed to connect to IB Gateway (attempt 4): 
+[36mtrading-app_1  |[0m 2025-05-12T05:58:31.164809520Z 2025-05-12 05:58:31,164 - INFO - Disconnected.
+[36mtrading-app_1  |[0m 2025-05-12T05:59:11.203465375Z 2025-05-12 05:59:11,202 - INFO - Attempting to connect to IB Gateway (attempt 5/5)
+[36mtrading-app_1  |[0m 2025-05-12T05:59:11.203517772Z 2025-05-12 05:59:11,202 - INFO - Connecting to ib-gateway:4004 with clientId 1...
+[36mtrading-app_1  |[0m 2025-05-12T05:59:11.205978332Z 2025-05-12 05:59:11,205 - INFO - Connected
+[36mtrading-app_1  |[0m 2025-05-12T05:59:15.209710015Z 2025-05-12 05:59:15,209 - INFO - Disconnecting
+[36mtrading-app_1  |[0m 2025-05-12T05:59:15.216263615Z 2025-05-12 05:59:15,216 - ERROR - API connection failed: TimeoutError()
+[36mtrading-app_1  |[0m 2025-05-12T05:59:15.216512447Z 2025-05-12 05:59:15,216 - ERROR - Failed to connect to IB Gateway (attempt 5): 
+[36mtrading-app_1  |[0m 2025-05-12T05:59:15.216677559Z 2025-05-12 05:59:15,216 - ERROR - Failed all immediate retries, waiting 60 seconds before starting over
+[36mtrading-app_1  |[0m 2025-05-12T05:59:15.217021048Z 2025-05-12 05:59:15,216 - INFO - Disconnected.

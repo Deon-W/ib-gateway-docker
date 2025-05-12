@@ -142,9 +142,16 @@ class PriceCollector:
                         continue
 
                 # Set up IB contract
-                usdzar = Forex('USDZAR')
-                self.ib.qualifyContracts(usdzar)
-                ticker = self.ib.reqMktData(usdzar)
+                try:
+                    usdzar = Forex('USDZAR')
+                    self.ib.qualifyContracts(usdzar)
+                    ticker = self.ib.reqMktData(usdzar)
+                except Exception as e:
+                    if 'No security definition has been found for the request' in str(e):
+                        logging.error(f"IB contract error: {str(e)}")
+                        self.status.set_inactive()  # Track contract errors
+                        await asyncio.sleep(20)
+                        continue
                 
                 # Wait for initial market data
                 data_received = False
@@ -230,10 +237,14 @@ class PriceCollector:
                     missing = []
                     if not is_valid_price(self.ib_bid) or not is_valid_price(self.ib_ask):
                         missing.append("IB prices")
+                        logging.error("Invalid IB prices detected: bid={}, ask={}".format(self.ib_bid, self.ib_ask))
+                        self.status.set_inactive()  # Track IB price errors
                     if not is_valid_price(self.valr_bid) or not is_valid_price(self.valr_ask):
                         missing.append("VALR prices")
+                        logging.error("Invalid VALR prices detected: bid={}, ask={}".format(self.valr_bid, self.valr_ask))
+                        self.status.set_inactive()  # Track VALR price errors
                     error_msg = f"Missing valid prices for: {', '.join(missing)}"
-                    logging.warning(error_msg)
+                    logging.error(error_msg)
                     await asyncio.sleep(20)
                     continue
 
